@@ -55,7 +55,7 @@
 > $clean = clean('091823457432');  
 > $is_valid = is_valid($clean);  
 
-> //if number is valid then check network type
+> //if number is valid then check network type  
 > if($is_valid)  
 >	$network = network($clean); 
 > else  
