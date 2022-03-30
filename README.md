@@ -48,15 +48,15 @@
 
 # How To Use
 
-> 1. Put the functions in your functions page(includes/functions.php)
-> 2. Include the function file in the page which you want to verfi numbers 
+> 1. Put the functions in your functions page(includes/functions.php)  
+> 2. Include the function file in the page which you want to verfi numbers   
 
-> let's say user input number of "091823457432"; 
-> $clean = clean('091823457432'); 
-> $is_valid = is_valid($clean);
+> let's say user input number of "091823457432";  
+> $clean = clean('091823457432');  
+> $is_valid = is_valid($clean);  
 
 > //if number is valid then check network type
-> if($is_valid)
+> if($is_valid)  
 >	$network = network($clean); 
-> else
+> else  
 >	echo 'Number Not Valid'; 
